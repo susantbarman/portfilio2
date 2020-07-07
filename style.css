@@ -1,0 +1,177 @@
+/*========================== 
+       Comone style 
+===========================*/
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Muli', sans-serif;
+
+}
+
+html{
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+
+}
+
+/*========================== 
+       navebar style 
+===========================*/
+
+
+
+.navbar-nav .nav-item .nav-link{
+	font-size: 15px;
+	font-weight: bold;
+	color: #9FB8D2!important;
+}
+
+.navbar-nav .nav-item .active{
+	color: #2352C0!important;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+	
+	color: #2352C0!important;
+}
+.hero_section .bg-hero{
+	background: #1545B3;
+
+}
+.container .hero_left_right{
+	margin-top: 100px;
+	margin-bottom: 100px;
+
+}
+.container .hero_left h1{
+	color: #fff;
+	font-size: 55px;
+	font-weight: 900;
+	line-height: 1.2;
+	margin-bottom: 50px;
+}
+
+.container .hero_left h1 u{
+	color:#9FB8D2;
+}
+
+.container .hero_left_right .hero_btn{
+
+	background: #9FB8D2;
+	border-radius: 25px;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-size: 18px;
+}
+.container  .hero_btn:hover{
+
+	outline-color: #fff;
+	background: #1545B3;
+	border: 1px solid #fff;
+	transition: all 0.2s linear;
+	color: #000;
+}
+
+.container .hero_left_right .hero_btn_outline{
+
+	border-radius: 25px;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-size: 18px;
+}
+
+/*========================== 
+      About us style 
+===========================*/
+
+.about_section .fa {
+
+	border: 2px solid #1545B3;
+	border-radius: 50%;
+	padding: 15px;
+	color: #1545B3;
+}
+
+.about_section .abt_hover:hover .fa{
+
+	background: #80BDFF;
+	color: #fff;
+	transition: all 0.2s linear;
+	border:2px solid #80BDFF ;
+
+
+}
+
+.about_section .abt_hover h5{
+
+	font-weight: 700;
+	color: #283D50;
+}
+/*========================== 
+  portfolio section style 
+===========================*/
+
+ #portfolio_tab .filter-button{
+
+	font-size: 20px!important;
+	font-weight: 700!important;
+	margin-bottom: 20px;
+	border: 1px solid #80BDFF ;
+
+}
+
+ #portfolio_tab .filter-button:hover{
+ 	background: #1545B3;
+ 	color: #fff;
+ 	cursor: pointer;
+ 	transition: all 0.2s linear;
+ 	border: 1px solid #80BDFF ;
+ }
+
+ .btn-defalt:active ,.filter-button:active{
+ 	background: #1545B3;
+ 	color: #fff;
+ 	outline: none!important;
+ }
+
+ .btn-defalt:focus ,.filter-button:focus{
+ 	outline: none!important;
+ }
+
+/*========================== 
+      Team section style 
+===========================*/
+
+#team img{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+/*========================== 
+   testimonial section style 
+===========================*/
+#carouselExampleCaptions img{
+
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+
+}
+/*========================== 
+     Clint section style 
+===========================*/
+#clint img{
+	border: 1px solid #eded;
+	background: #fff;
+	height: 100px;
+	width: 250px;
+	padding: 25px;
+
+}
+
+/*========================== 
+     Contect section style 
+===========================*/
